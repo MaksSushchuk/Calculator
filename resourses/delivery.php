@@ -35,7 +35,7 @@ use Calculator\Calculator;
   <form action="" method ="POST">
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Package weight</label>
-      <input type="number" value = "<?=$_POST['weight']?>"name = 'weight'class="form-control" id="exampleFormControlInput1" placeholder="enter the weight in kilograms">
+      <input type="text" value = "<?=$_POST['weight']?>"name = 'weight'class="form-control" id="exampleFormControlInput1" placeholder="enter the weight in kilograms">
     </div>
     <div class="form-check">
       <input class="form-check-input" name = 'Company' type="radio" value ="TransCompany" id="flexRadioDefault1">
